@@ -17,10 +17,9 @@
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"opauth/opauth": "dev-wip/1.0"
+		"opauth/opauth": "dev-1.0-psr4"
 	},
 	"autoload": {
-		"psr-0": { "Opauth\\Strategy\\Facebook": "" }
-	},
-	"target-dir": "Opauth/Strategy/Facebook"
+		"psr-4": { "Opauth\\Facebook\\Strategy\\": "src" }
+	}
 }
