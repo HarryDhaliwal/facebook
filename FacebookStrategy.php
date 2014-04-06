@@ -1,5 +1,5 @@
 <?php
-/**
+/** TEST
  * Facebook strategy for Opauth
  * based on https://developers.facebook.com/docs/authentication/server-side/
  * 
